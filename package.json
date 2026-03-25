@@ -1,0 +1,15 @@
+{
+  "name": "welfare-agent",
+  "version": "1.0.0",
+  "description": "Irish elderly assistant — MySocialWelfare.ie helper",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
